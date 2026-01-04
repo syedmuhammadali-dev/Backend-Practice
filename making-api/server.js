@@ -7,7 +7,7 @@ import express from "express";
 import morgan from "morgan";
 import cors from "cors";
 import { config } from "dotenv";
-import users from "./src/dummy-data/dummy-data.js";
+import users from "./src/dummyData.js"; // .js extension likhna zaroori hai warna server staart nhihoga
 
 // Environment variables config...!
 config({
