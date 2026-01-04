@@ -23,7 +23,7 @@ app.use(morgan("dev"));
 app.use(cors());
 
 // Create 1st api: / route...!
-// http://localhost:3000
+// http://localhost:3000/
 app.get("/", (req, res) => {
   return res.status(200).send({
     statusCode: 200,
