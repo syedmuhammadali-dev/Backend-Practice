@@ -123,6 +123,15 @@ app.delete("/todo/delete/:key", (req, res) => {
   console.log(`Todo iten key: ${key}`);
 });
 
+// My Practice api...!
+
+app.get("/greeting", (req, res) => {
+  return res.status(200).send({
+    status: true,
+    mesaage: "Hello Ali",
+  });
+});
+
 // Server running...!
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
