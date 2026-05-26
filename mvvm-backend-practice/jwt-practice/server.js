@@ -14,4 +14,4 @@ app.use(express.json());
 app.use(morgan("dev"));
 app.use(cors());
 
-app.listen(console.log(`server running on port: ${process.env.PORT}`));
+app.listen(console.log(`server is running on port: ${process.env.PORT}`));
